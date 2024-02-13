@@ -1,6 +1,7 @@
 <?php
 // Establish database connection
-$conn = mysqli_connect("localhost", "root", "", "kbc");
+$conn = mysqli_connect("database-1.c5g00kig6lqe.us-east-1.rds.amazonaws.com", "admin", "password", "kbc");
+// $conn = mysqli_connect("localhost", "root", "", "kbc");
 
 // Check connection
 if (!$conn) {
